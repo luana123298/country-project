@@ -1,0 +1,97 @@
+/* External CSS */
+
+a{
+  text-decoration:none;
+  font-weight: bold;
+}
+/* Change #click_me to look like a button*/
+#click_me{
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+#click_me:hover{
+  color: red !important;
+}
+
+/* Change the color of the text of #click_me when you hover over it to white */
+
+
+/* CSS Specificity 
+   inline > id > class > element
+*/
+
+/* Start */
+/* Make #banner stand out */
+body {
+	margin: 0;
+}
+#banner{
+  background-color:black;
+  color:white;
+  text-align: center;
+  padding:10px;
+}
+
+
+nav {
+  padding: 5px;
+  margin: 0.25rem;
+  border: rgb(203 213 225) solid 2px;
+  background-color: rgb(241 245 249);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: start;
+  gap: 1px;
+}
+nav a {
+  color:black;
+  padding: 5px;
+  border-radius: 2px;
+  border: rgb(203 213 225) solid 1px;
+  text-align: center;
+  transition-duration: 0.1s;
+  flex-grow: 1;
+}
+
+nav a:active {
+	background-color: white;
+}
+
+nav a:hover {
+	flex-grow: 2;
+	background-color: white;
+}
+
+
+
+/* Internal CSS */
+	  
+	  * {
+		font-family: sans-serif;
+	  }
+	  
+      .container {
+		display: flex;
+		flex-direction: row;
+		border: 2px solid rgb(226 232 240);
+		background-color: rgb(241 245 249);
+		padding: 1rem;
+		margin: 0.25rem;
+		border-radius: 5px;
+		gap: 1rem;
+		box-shadow: 3px 3px rgb(203 213 225);
+	  }
+	  
+	  .container img {
+		border-radius: 5px;
+		box-shadow: 3px 3px rgb(203 213 225);
+	  }
+	  
+	  .container p { 
+		color: rgb(100 116 139);
+	  }
